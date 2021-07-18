@@ -5,7 +5,6 @@ dura = int(input("Event duration (minutes): "))
 # floor division returns the integer value of the the quotient. (it dumps the decimal)
 #  dura//60
 
-print('end time: ', ((hour + (min*dura)//60)%24)                                    %60  )
+print("End  Time:", ((hour + (mins+dura)//60)%24), ":", (mins+dura) % 60)
 
 
-# Write your code here.
